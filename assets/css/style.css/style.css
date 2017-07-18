@@ -103,3 +103,25 @@ height=50px;
 top: 0px;
 left: 10px;
 }
+
+
+
+#contact
+{
+clear: both;
+background: white;
+ width:650px;
+  height:300px;
+ padding: 0px 0px 10px 5px;
+ margin: 25px;
+ float: left;
+border-width: 2px;   
+border-color: black;
+border-style: solid;
+position: relative;
+top: -190px;
+left: 10px;
+}
+
+.p{color: white;
+}
