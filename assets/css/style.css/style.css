@@ -21,6 +21,22 @@ left: -190px;
 }
 
 
+#bottom
+{
+clear:both;
+
+background: white;
+ width:1000px;
+ margin: 0px;
+border-width: 2px;   
+border-color: black;
+border-style: solid;
+height=50px;
+top: 100px;
+left: 10px;
+}
+
+
   #myname { 
   	clear: both;
     background-color: teal;
@@ -40,17 +56,18 @@ left: -190px;
 {
 clear:both;
 background: white;
- width:270px;
- height: 200px;
+ width:280px;
+ height: 250px;
  float: right;
-  padding: 10px 20px 20px 10px;
- margin: 5px;
+ padding: 10px 1px 10px 10px;
+ margin: 0px;
 border-width: 2px;   
 border-color: black;
 border-style: solid;
 position: relative;
-top: -539px;
+top: -519px;
 left: -124px;
+color:black;
 }
 
 
@@ -88,21 +105,7 @@ border-style: solid;
 }
 
 
-#bottom
-{
 
-	clear: both;
-background: white;
- width:1000px;
-
- margin: 0px;
-border-width: 2px;   
-border-color: black;
-border-style: solid;
-height=50px;
-top: 0px;
-left: 10px;
-}
 
 
 
@@ -124,4 +127,48 @@ left: 10px;
 }
 
 .p{color: white;
+}
+
+
+
+.float-left {
+float:left;
+width:200px; // or 33% for equal width independent of parent width
+
+}
+
+
+#header1
+{
+clear:both;
+background: white;
+ width:650px;
+ height:470px;
+ padding: 0px 0px 0px 0px;
+ margin: 25px;
+ float: left;
+border-width: 2px;   
+border-color: black;
+border-style: solid;
+position: relative;
+top: -190px;
+left: 10px;
+}
+
+#intro1
+{
+	clear:both;
+background: white;
+ width:280px;
+ height: 250px;
+ float: right;
+ padding: 0px 10px 10px 10px ;
+ margin: -205px;
+border-width: 2px;   
+border-color: black;
+border-style: solid;
+position: relative;
+top: -170px;
+left: -124px;
+color:black;
 }
